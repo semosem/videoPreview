@@ -3,6 +3,7 @@ import ReactPlayer from "react-player";
 import { parseTime } from "./utils/functions";
 
 export default function VideoFetcher() {
+  
   const [videoUrl, setVideoUrl] = useState<string>("");
   const [videoSource, setVideoSource] = useState<string>("");
   const [startTime, setStartTime] = useState<string>("");
